@@ -11,7 +11,7 @@ import { moviesCategories } from "../store/moviesSelectors";
 const FilterComponentContainer = styled.div`
 
   background-color: #f4f4f4;
-  padding: 4rem 0;
+  padding: 4rem 0 1rem 0;
   border-bottom: 2px solid #8080801f;
   display: flex;
   justify-content: center;

@@ -19,7 +19,7 @@ const DashBoardContainer = styled.div`
   background-color: #f4f4f4;
   display: flex;
   flex-wrap: wrap;
-  padding: 4rem 0;
+  padding: 2rem 0 4rem 0;
   margin: auto;
   justify-content: center;
 
@@ -51,6 +51,7 @@ const Pagination = styled.div`
   align-items: center;
   margin-left: 5rem;
   z-index: 5;
+  margin-top: 2rem;
 
   @media (max-width: 600px) {
     position: fixed;
@@ -242,7 +243,7 @@ const Pagination = styled.div`
     .selected {
       background-color: white;
       @media (max-width: 600px) {
-        background-color: #F4F4F4;
+        background-color: #F4F4F4 !important;
     }
     }
   }
